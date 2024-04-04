@@ -2,22 +2,22 @@ import 'package:quiz_app/model/quiz_questions.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'How many months have 28 days?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
+      'All of them',
+      '2',
+      '1',
+      'Depends if there is a leap year or not',
     ],
   ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
+  QuizQuestion('How many 0.5cm slices can you cut from a bread that is 25cm long?', [
+    '50',
+    '100',
+    '25',
+    '75',
   ]),
   QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
+    'What\'s the purpose of a StatefulWidget in Flutter?',
     [
       'Update UI as data changes',
       'Update data as UI changes',
@@ -26,30 +26,30 @@ const questions = [
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'The author of world famous Harry Potter series is ______.',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'J K Rowling',
+      'Arundhati Roy',
+      'Christopher Nolan',
+      'Ryan Gosling',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'Capital of India is ______.',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'New Delhi',
+      'Mumbai',
+      'Kolkata',
+      'Surat',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Which is the Longest Format of Cricket?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Test',
+      'One Day',
+      'T20',
+      'The Hundred',
     ],
   ),
 ];

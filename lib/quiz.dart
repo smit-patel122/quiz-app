@@ -61,12 +61,6 @@ class _QuizState extends State<Quiz> {
       home: Scaffold(
         body: Container(
             decoration: const BoxDecoration(
-              // gradient: LinearGradient(
-              //   colors: [
-              //     Color.fromRGBO(120, 88, 166, 1.0),
-              //     Color.fromRGBO(91, 75, 138, 1.0),
-              //     Color.fromRGBO(76, 53, 117, 1.0)
-              //   ],
               gradient: LinearGradient(
                 colors: [Colors.yellow, Colors.red],
                 begin: Alignment.bottomRight,

@@ -22,7 +22,7 @@ class StartScreen extends StatelessWidget {
             height: 20,
           ),
           Text(
-            'Learn Flutter In Amazing Way!',
+            'Let\'s Test Your Knowledge In Amazing Way!',
             style: GoogleFonts.spaceGrotesk(color: Colors.white, fontSize: 18),
           ),
           TextButton.icon(
